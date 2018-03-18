@@ -1,0 +1,129 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: #80774c;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Julius Sans One', sans-serif;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  margin: 2px;
+  text-align: center;
+}
+
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  width: 100%;
+  min-height: 160px;
+  transition: min-height 0.3s;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  display: table;
+}
+.header__logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 80%;
+  margin-left: 20px;
+}
+.header__inner1 {
+  display: table-cell;
+  vertical-align: middle;
+}
+.header__inner2 {
+  display: table-cell;
+  float: right;
+  margin-top: 48px;
+  margin-right: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+.header__title {
+  text-transform: uppercase;
+}
+.header__subtitle {
+  text-transform: uppercase;
+}
+/*-----------------------------------------------------------------------------*/
+.hero {
+  width: inherit;
+}
+.hero__image{
+  display: block;
+  width: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+/*-----------------------------------------------------------------------------*/
+.projects_container {
+  width: inherit;
+}
+.projects__title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.projects_lists {
+  display:flex;
+  justify-content:space-between;
+}
+.project1 {
+  width: 33%;
+  display: inline-block;
+  border: solid #80774c 2px;
+  border-radius: 10px;
+}
+.project2 {
+  width: 33%;
+  display: inline-block;
+  border: solid #80774c 2px;
+  border-radius: 10px;
+}
+.project3 {
+  width: 33%;
+  display: inline-block;
+  border: solid #80774c 2px;
+  border-radius: 10px;
+}
+.projects__images {
+  display: block;
+  width: 95%;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.project_name {
+  text-align: center;
+  margin-top: 2%;
+}
+.link {
+  display: block;
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 20px;
+}
